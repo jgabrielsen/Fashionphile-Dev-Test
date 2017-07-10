@@ -532,7 +532,7 @@ body {
   font-size: 1.5em;
   /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  font-weight: 400;
+  font-weight: 200;
   font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
@@ -867,7 +867,29 @@ there.
 .title {
   margin: 5rem auto 0; }
 
-.product:nth-of-type(4n+1) {
-  margin-left: 0; }
+.product {
+  margin-bottom: 4rem; }
+  .product p {
+    margin: 0;
+    text-align: center; }
+  .product .product-name {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    line-height: 1.1; }
+  .product .product-brand {
+    font-style: italic;
+    font-weight: 400;
+    color: #ccc;
+    margin-bottom: 1rem; }
+  .product .product-image {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    border-radius: 50rem;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5); }
+  .product:nth-of-type(3n+1) {
+    margin-left: 0; }
 
 /*# sourceMappingURL=style.css.map */
