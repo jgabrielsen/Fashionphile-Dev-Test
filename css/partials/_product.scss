@@ -1,0 +1,9 @@
+.title {
+	margin: 5rem auto 0;
+}
+
+.product {
+	&:nth-of-type(4n+1) {
+		margin-left:0;
+	}
+}
