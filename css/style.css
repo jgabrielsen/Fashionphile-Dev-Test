@@ -868,7 +868,8 @@ there.
   margin: 5rem auto 0; }
 
 .product {
-  margin-bottom: 4rem; }
+  margin-bottom: 4rem;
+  list-style: none; }
   .product p {
     margin: 0;
     text-align: center; }
@@ -886,9 +887,7 @@ there.
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 100%;
-    border-radius: 50rem;
-    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
-            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5); }
+    border: 3px solid pink; }
   .product:nth-of-type(3n+1) {
     margin-left: 0; }
 
