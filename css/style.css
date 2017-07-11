@@ -866,7 +866,7 @@ there.
 /* Larger than Desktop HD */
 header {
   width: 100%;
-  margin: 0 0 4rem;
+  margin: 0;
   padding: 2rem 0;
   color: #fff;
   background-color: #222; }
