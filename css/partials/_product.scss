@@ -16,7 +16,7 @@ header {
 
 .product {
 	padding: 2rem 0 2rem;
-	margin-bottom: 10rem;
+	margin-bottom: 12rem;
 	list-style: none;
 	position: relative;
 	p {
@@ -52,7 +52,6 @@ header {
 		margin-left:0;
 	}
 	@media (min-width: 550px) {
-		margin-bottom: 12rem;
 		.product-info {
 			.product-name {
 				font-size: 1.6rem;
@@ -60,11 +59,13 @@ header {
 		}
 	}
 	@media (min-width: 1000px) {
-		margin-bottom: 10rem;
 		.product-info {
 			.product-name {
 				font-size: 2rem;
 			}
 		}
+	}
+	@media (min-width: 1200px) {
+		margin-bottom: 10rem;
 	}
 }
